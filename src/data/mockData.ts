@@ -4,8 +4,8 @@ export const centros: Centro[] = [
   {
     id: 'avellano',
     nombre: 'Avellano',
-    lat: -38.2498,
-    lng: -72.6701,
+    lat: -44.061441681300394,
+    lng: -73.1839489275358,
     estado: 'normal',
     pesoPromedio: 2.8,
     jaulasOperativas: 18,
@@ -35,8 +35,8 @@ export const centros: Centro[] = [
   {
     id: 'betecoi',
     nombre: 'Betecoi',
-    lat: -38.3000,
-    lng: -72.7000,
+    lat: -43.94537900263648,
+    lng: -73.84737000160386,
     estado: 'normal',
     pesoPromedio: 2.5,
     jaulasOperativas: 15,
@@ -66,8 +66,8 @@ export const centros: Centro[] = [
   {
     id: 'capera',
     nombre: 'Capera',
-    lat: -38.3500,
-    lng: -72.7500,
+    lat: -41.59919200397871,
+    lng: -73.00894699757919,
     estado: 'alerta',
     pesoPromedio: 3.2,
     jaulasOperativas: 16,
@@ -97,8 +97,8 @@ export const centros: Centro[] = [
   {
     id: 'chidhuapi',
     nombre: 'Chidhuapi',
-    lat: -38.4000,
-    lng: -72.8000,
+    lat: -41.614458270999,
+    lng: -72.769989948047,
     estado: 'normal',
     pesoPromedio: 2.9,
     jaulasOperativas: 14,
@@ -128,8 +128,8 @@ export const centros: Centro[] = [
   {
     id: 'elena',
     nombre: 'Elena',
-    lat: -38.5000,
-    lng: -72.9000,
+    lat: -44.2547727320761,
+    lng: -73.80913343041688,
     estado: 'normal',
     pesoPromedio: 2.7,
     jaulasOperativas: 12,
@@ -159,8 +159,8 @@ export const centros: Centro[] = [
   {
     id: 'jonshon_1',
     nombre: 'Jonshon 1',
-    lat: -38.5500,
-    lng: -72.9500,
+    lat: -51.9445933510463,
+    lng: -72.92780637682881,
     estado: 'normal',
     pesoPromedio: 2.6,
     jaulasOperativas: 10,
@@ -190,8 +190,8 @@ export const centros: Centro[] = [
   {
     id: 'jesus_6',
     nombre: 'Jesus 6',
-    lat: -38.6000,
-    lng: -73.0000,
+    lat: -44.71311000437228,
+    lng: -73.85843798649148,
     estado: 'normal',
     pesoPromedio: 2.4,
     jaulasOperativas: 8,
@@ -221,8 +221,8 @@ export const centros: Centro[] = [
   {
     id: 'queten',
     nombre: 'Queten',
-    lat: -38.4500,
-    lng: -72.8500,
+    lat: -41.94657759089752,
+    lng: -72.82923228536413,
     estado: 'critico',
     pesoPromedio: 3.8,
     jaulasOperativas: 12,
@@ -265,8 +265,8 @@ export const centros: Centro[] = [
   {
     id: 'seno_melimoyu',
     nombre: 'Seno Melimoyu',
-    lat: -38.6500,
-    lng: -73.0500,
+    lat: -44.055924404629,
+    lng: -73.118603183979,
     estado: 'normal',
     pesoPromedio: 2.3,
     jaulasOperativas: 6,
@@ -296,8 +296,8 @@ export const centros: Centro[] = [
   {
     id: 'transito_2',
     nombre: 'Transito 2',
-    lat: -38.7000,
-    lng: -73.1000,
+    lat: -44.80172898860821,
+    lng: -73.72884897555879,
     estado: 'normal',
     pesoPromedio: 2.2,
     jaulasOperativas: 4,
@@ -327,8 +327,8 @@ export const centros: Centro[] = [
   {
     id: 'valverde_4',
     nombre: 'Valverde 4',
-    lat: -38.7500,
-    lng: -73.1500,
+    lat: -44.33360298456409,
+    lng: -73.7657569872681,
     estado: 'normal',
     pesoPromedio: 2.1,
     jaulasOperativas: 3,
@@ -353,6 +353,130 @@ export const centros: Centro[] = [
       centroId: 'valverde_4',
       timestamp: new Date(Date.now() - 2700000),
       descripcion: 'Monitoreo completado en Valverde 4'
+    }
+  },
+  {
+    id: 'concoto',
+    nombre: 'Concoto',
+    lat: -44.16308386855859,
+    lng: -73.80408400436863,
+    estado: 'normal',
+    pesoPromedio: 2.0,
+    jaulasOperativas: 5,
+    totalJaulas: 8,
+    modulos: [
+      {
+        id: 'concoto-100',
+        nombre: 'Módulo 100',
+        actividad: 35,
+        ultimaActividad: new Date(),
+        jaulas: Array.from({ length: 8 }, (_, i) => ({
+          id: `concoto-100-${i + 1}`,
+          estado: i < 5 ? 'ocupada' : 'libre',
+          peso: i < 5 ? Math.random() * 4 + 1 : undefined,
+          ultimoMovimiento: i < 5 ? new Date(Date.now() - Math.random() * 3600000) : undefined
+        }))
+      }
+    ],
+    ultimoEvento: {
+      id: 'event-concoto',
+      tipo: 'movimiento',
+      centroId: 'concoto',
+      timestamp: new Date(Date.now() - 3000000),
+      descripcion: 'Monitoreo rutinario en Concoto'
+    }
+  },
+  {
+    id: 'herradura',
+    nombre: 'Herradura',
+    lat: -41.56952699284168,
+    lng: -72.96364796952122,
+    estado: 'normal',
+    pesoPromedio: 2.4,
+    jaulasOperativas: 7,
+    totalJaulas: 10,
+    modulos: [
+      {
+        id: 'herradura-100',
+        nombre: 'Módulo 100',
+        actividad: 45,
+        ultimaActividad: new Date(),
+        jaulas: Array.from({ length: 10 }, (_, i) => ({
+          id: `herradura-100-${i + 1}`,
+          estado: i < 7 ? 'ocupada' : 'libre',
+          peso: i < 7 ? Math.random() * 4 + 1 : undefined,
+          ultimoMovimiento: i < 7 ? new Date(Date.now() - Math.random() * 3600000) : undefined
+        }))
+      }
+    ],
+    ultimoEvento: {
+      id: 'event-herradura',
+      tipo: 'movimiento',
+      centroId: 'herradura',
+      timestamp: new Date(Date.now() - 3300000),
+      descripcion: 'Actividad normal en Herradura'
+    }
+  },
+  {
+    id: 'marta',
+    nombre: 'Marta',
+    lat: -44.839053381554606,
+    lng: -72.971544398852,
+    estado: 'normal',
+    pesoPromedio: 2.6,
+    jaulasOperativas: 9,
+    totalJaulas: 12,
+    modulos: [
+      {
+        id: 'marta-100',
+        nombre: 'Módulo 100',
+        actividad: 55,
+        ultimaActividad: new Date(),
+        jaulas: Array.from({ length: 12 }, (_, i) => ({
+          id: `marta-100-${i + 1}`,
+          estado: i < 9 ? 'ocupada' : 'libre',
+          peso: i < 9 ? Math.random() * 4 + 1 : undefined,
+          ultimoMovimiento: i < 9 ? new Date(Date.now() - Math.random() * 3600000) : undefined
+        }))
+      }
+    ],
+    ultimoEvento: {
+      id: 'event-marta',
+      tipo: 'movimiento',
+      centroId: 'marta',
+      timestamp: new Date(Date.now() - 3600000),
+      descripcion: 'Monitoreo completado en Marta'
+    }
+  },
+  {
+    id: 'cascada',
+    nombre: 'Cascada',
+    lat: -44.074241584851165,
+    lng: -73.14659551023729,
+    estado: 'normal',
+    pesoPromedio: 2.3,
+    jaulasOperativas: 6,
+    totalJaulas: 8,
+    modulos: [
+      {
+        id: 'cascada-100',
+        nombre: 'Módulo 100',
+        actividad: 40,
+        ultimaActividad: new Date(),
+        jaulas: Array.from({ length: 8 }, (_, i) => ({
+          id: `cascada-100-${i + 1}`,
+          estado: i < 6 ? 'ocupada' : 'libre',
+          peso: i < 6 ? Math.random() * 4 + 1 : undefined,
+          ultimoMovimiento: i < 6 ? new Date(Date.now() - Math.random() * 3600000) : undefined
+        }))
+      }
+    ],
+    ultimoEvento: {
+      id: 'event-cascada',
+      tipo: 'movimiento',
+      centroId: 'cascada',
+      timestamp: new Date(Date.now() - 3900000),
+      descripcion: 'Actividad normal en Cascada'
     }
   }
 ];

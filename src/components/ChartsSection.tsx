@@ -112,7 +112,11 @@ const ChartsSection: React.FC = () => {
             { centro: 'Queten', actividad: 95 },
             { centro: 'Seno Melimoyu', actividad: 50 },
             { centro: 'Transito 2', actividad: 45 },
-            { centro: 'Valverde 4', actividad: 40 }
+            { centro: 'Valverde 4', actividad: 40 },
+            { centro: 'Concoto', actividad: 35 },
+            { centro: 'Herradura', actividad: 45 },
+            { centro: 'Marta', actividad: 55 },
+            { centro: 'Cascada', actividad: 40 }
           ]}>
             <CartesianGrid strokeDasharray="3 3" stroke="var(--border-color)" />
             <XAxis 
