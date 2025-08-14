@@ -1,0 +1,254 @@
+[
+    {
+        "nombre": "Concoto",
+        "codigo_interno": "128",
+        "latitud": -44.16308386855859,
+        "longitud": -73.80408400436863
+    },
+    {
+        "nombre": "Elefante",
+        "codigo_interno": "129",
+        "latitud": -45.65129524087232,
+        "longitud": -73.6085911715679
+    },
+    {
+        "nombre": "Frente Islas Wagner",
+        "codigo_interno": "131",
+        "latitud": -52.25480190498232,
+        "longitud": -72.88409199740244
+    },
+    {
+        "nombre": "Herradura",
+        "codigo_interno": "133",
+        "latitud": -41.56952699284168,
+        "longitud": -72.96364796952122
+    },
+    {
+        "nombre": "Huenquillahue",
+        "codigo_interno": "135",
+        "latitud": -41.593051546314186,
+        "longitud": -73.06596309849948
+    },
+    {
+        "nombre": "Marta",
+        "codigo_interno": "138",
+        "latitud": -44.839053381554606,
+        "longitud": -72.971544398852
+    },
+    {
+        "nombre": "Marchant",
+        "codigo_interno": "150",
+        "latitud": -44.07833165293018,
+        "longitud": -73.09860204799203
+    },
+    {
+        "nombre": "Cascada",
+        "codigo_interno": "127",
+        "latitud": -44.074241584851165,
+        "longitud": -73.14659551023729
+    },
+    {
+        "nombre": "Betecoi",
+        "codigo_interno": "169",
+        "latitud": -43.94537900263648,
+        "longitud": -73.84737000160386
+    },
+    {
+        "nombre": "Staines1_Mod200",
+        "codigo_interno": "173",
+        "latitud": -51.38567022363075,
+        "longitud": -73.85502087118772
+    },
+    {
+        "nombre": "Jesus 6",
+        "codigo_interno": "188",
+        "latitud": -44.71311000437228,
+        "longitud": -73.85843798649148
+    },
+    {
+        "nombre": "Paso Vattuone",
+        "codigo_interno": "195",
+        "latitud": -51.77054999847567,
+        "longitud": -72.95440299378242
+    },
+    {
+        "nombre": "Transito 2",
+        "codigo_interno": "196",
+        "latitud": -44.80172898860821,
+        "longitud": -73.72884897555879
+    },
+    {
+        "nombre": "Defit REPETIDO",
+        "codigo_interno": "199",
+        "latitud": -42.698730023015266,
+        "longitud": -73.58170999679716
+    },
+    {
+        "nombre": "Cuptana 2 ",
+        "codigo_interno": "200",
+        "latitud": -44.6327380060333,
+        "longitud": -73.83837305009365
+    },
+    {
+        "nombre": "Isla Colorada",
+        "codigo_interno": "208",
+        "latitud": -45.36247001570407,
+        "longitud": -73.35213599988491
+    },
+    {
+        "nombre": "Aysen 2",
+        "codigo_interno": "209",
+        "latitud": -45.384836154338615,
+        "longitud": -73.10875773400765
+    },
+    {
+        "nombre": "Bahia Perales",
+        "codigo_interno": "211",
+        "latitud": -51.54407999857949,
+        "longitud": -72.87046400131656
+    },
+    {
+        "nombre": "Francisco Norte",
+        "codigo_interno": "212",
+        "latitud": -44.50562399565828,
+        "longitud": -73.60877298721664
+    },
+    {
+        "nombre": "Jonshon 1",
+        "codigo_interno": "213",
+        "latitud": -51.9445933510463,
+        "longitud": -72.92780637682881
+    },
+    {
+        "nombre": "Jonshon 3",
+        "codigo_interno": "217",
+        "latitud": -51.940614849738225,
+        "longitud": -72.92035194682909
+    },
+    {
+        "nombre": "Jonshon 2",
+        "codigo_interno": "216",
+        "latitud": -51.93821099559199,
+        "longitud": -72.92520099319518
+    },
+    {
+        "nombre": "Casa Pesca",
+        "codigo_interno": "221",
+        "latitud": -44.6217480029431,
+        "longitud": -72.67293599364687
+    },
+    {
+        "nombre": "Elena",
+        "codigo_interno": "222",
+        "latitud": -44.2547727320761,
+        "longitud": -73.80913343041688
+    },
+    {
+        "nombre": "Chidhuapi",
+        "codigo_interno": "225",
+        "latitud": -41.614458270999,
+        "longitud": -72.769989948047
+    },
+    {
+        "nombre": "Bahía Tranquila 1",
+        "codigo_interno": "226",
+        "latitud": -52.17803410493552,
+        "longitud": -72.87119257058886
+    },
+    {
+        "nombre": "Avellano",
+        "codigo_interno": "227",
+        "latitud": -44.061441681300394,
+        "longitud": -73.1839489275358
+    },
+    {
+        "nombre": "Punta Vergara",
+        "codigo_interno": "228",
+        "latitud": -51.772540998115176,
+        "longitud": -72.89840699289924
+    },
+    {
+        "nombre": "Seno Melimoyu",
+        "codigo_interno": "229",
+        "latitud": -44.055924404629,
+        "longitud": -73.118603183979
+    },
+    {
+        "nombre": "Detif",
+        "codigo_interno": "199",
+        "latitud": -42.70024999846554,
+        "longitud": -73.58389000844866
+    },
+    {
+        "nombre": "Estero Soto",
+        "codigo_interno": "234",
+        "latitud": -44.5740601533228,
+        "longitud": -72.72195398803889
+    },
+    {
+        "nombre": "Sotomo",
+        "codigo_interno": "232",
+        "latitud": -41.64065717350287,
+        "longitud": -72.37332731948813
+    },
+    {
+        "nombre": "Queullin",
+        "codigo_interno": "235",
+        "latitud": -41.88142005202823,
+        "longitud": -72.93688548827699
+    },
+    {
+        "nombre": "Queten",
+        "codigo_interno": "233",
+        "latitud": -41.94657759089752,
+        "longitud": -72.82923228536413
+    },
+    {
+        "nombre": "Catalina",
+        "codigo_interno": "231",
+        "latitud": -44.81684054541346,
+        "longitud": -72.96651906680405
+    },
+    {
+        "nombre": "Capera",
+        "codigo_interno": "220",
+        "latitud": -41.59919200397871,
+        "longitud": -73.00894699757919
+    },
+    {
+        "nombre": "Canutillar",
+        "codigo_interno": "237",
+        "latitud": -41.51181248951691,
+        "longitud": -72.33452429877316
+    },
+    {
+        "nombre": "Nueva Esperanza",
+        "codigo_interno": "236",
+        "latitud": -44.62803798698744,
+        "longitud": -72.78232199232816
+    },
+    {
+        "nombre": "Garrao 2",
+        "codigo_interno": "238",
+        "latitud": -44.32960430296625,
+        "longitud": -73.7068229354918
+    },
+    {
+        "nombre": "Guaitecas 2",
+        "codigo_interno": "239",
+        "latitud": -43.921362985267166,
+        "longitud": -73.87993398044236
+    },
+    {
+        "nombre": "Valverde 4",
+        "codigo_interno": "240",
+        "latitud": -44.33360298456409,
+        "longitud": -73.7657569872681
+    },
+    {
+        "nombre": "Melchor 04",
+        "codigo_interno": "241",
+        "latitud": -45.02164499467643,
+        "longitud": -73.96236507687718
+    }
+]
